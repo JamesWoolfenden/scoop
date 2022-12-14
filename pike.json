@@ -5,5 +5,6 @@
     "license":  "Apache-2.0",
     "url":  "https://github.com/JamesWoolfenden/pike/releases/download/v0.2.40/pike_0.2.40_windows_amd64.zip#/pike.zip",
     "homepage":  "https://github.com/JamesWoolfenden/pike",
-    "hash":  "6c7724fa7f0884ab7af28752234dfeedc6ae778e1f0f60835671cf0b2224a628"
+    "hash":  "6c7724fa7f0884ab7af28752234dfeedc6ae778e1f0f60835671cf0b2224a628",
+    "bin": "pike.exe"
 }
