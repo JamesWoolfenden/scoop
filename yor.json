@@ -1,0 +1,9 @@
+{
+  "version": "0.1.157",
+  "description": "Yor is your one stop tagging tool for your infrastructure",
+  "license": "Apache-2.0",
+  "url": "https://github.com/bridgecrewio/yor/releases/download/0.1.157/yor_0.1.157_windows_amd64.zip#/yor.zip",
+  "homepage": "https://github.com/bridgecrewio/yor",
+  "hash": "EEAC0CB4DEA074CBB3B03042F651A19A5FCFCA2E4E42D942DDA429082F2767EC",
+  "bin": "yor.exe"
+}
