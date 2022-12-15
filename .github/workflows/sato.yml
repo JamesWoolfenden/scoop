@@ -1,7 +1,8 @@
 name: sato
 on:
-  repository_dispatch:
-    types: [demo-command]
+  push:
+    branches:
+      - main
 jobs:
   run-demo:
     runs-on: ubuntu-latest
