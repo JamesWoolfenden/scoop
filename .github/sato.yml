@@ -1,0 +1,18 @@
+name: sato
+on:
+  repository_dispatch:
+    types: [demo-command]
+jobs:
+  run-demo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build
+        shell: pwsh
+        run: |
+          .\build.ps1 -target sato
+      - uses: stefanzweifel/git-auto-commit-action@v4
+          with:
+          # Optional. Commit message for the created commit.
+          # Defaults to "Apply automatic changes"
+          commit_message: Sato Updated
