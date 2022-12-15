@@ -1,4 +1,4 @@
-# scoop
+# Scoop IAC repo
 
 This is Scoop bucket for installing Windows tools.
 
