@@ -1,6 +1,7 @@
 name: pike
 on:
   repository_dispatch:
+      types: [pike]
   workflow_dispatch:
   push:
     branches:

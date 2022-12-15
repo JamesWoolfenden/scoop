@@ -1,6 +1,7 @@
 name: sato
 on:
   repository_dispatch:
+    types: [sato]
   workflow_dispatch:
   push:
     branches:
