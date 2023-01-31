@@ -1,9 +1,9 @@
 {
-  "version": "v0.2.54",
+  "version": "v0.2.55",
   "description": "Pike is a tool for figure out IAM deployment permission requirements in your Public Cloud from your IAM code",
   "license": "Apache-2.0",
-  "url": "https://github.com/jameswoolfenden/pike/releases/download/v0.2.54/pike_0.2.54_windows_amd64.zip#/pike.zip",
+  "url": "https://github.com/jameswoolfenden/pike/releases/download/v0.2.55/pike_0.2.55_windows_amd64.zip#/pike.zip",
   "homepage": "https://github.com/JamesWoolfenden/pike",
-  "hash": "21EDB98DABF4106E297CEC44E7C21C4840069C26726A57EC18BEFDFD6B5C6076",
+  "hash": "F61E1E9B1C38800B96E4EAB8F195C3B340BFC1CD869C8B85C26BA6C4E226AA5A",
   "bin": "pike.exe"
 }
