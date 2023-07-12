@@ -1,0 +1,22 @@
+name: ghat
+on:
+  repository_dispatch:
+    types: [ghat]
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+jobs:
+  update-ghat:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build
+        shell: pwsh
+        run: |
+          .\build.ps1 -target ghat
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          # Optional. Commit message for the created commit.
+          # Defaults to "Apply automatic changes"
+          commit_message: ghat Updated
