@@ -1,0 +1,22 @@
+name: stevedore
+on:
+  repository_dispatch:
+      types: [stevedore]
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+jobs:
+  update-pike:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build
+        shell: pwsh
+        run: |
+          .\build.ps1 -target pike
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          # Optional. Commit message for the created commit.
+          # Defaults to "Apply automatic changes"
+          commit_message: Stevedore Updated
