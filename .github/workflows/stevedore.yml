@@ -14,7 +14,7 @@ jobs:
       - name: Build
         shell: pwsh
         run: |
-          .\build.ps1 -target pike
+          .\build.ps1 -target stevedore
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           # Optional. Commit message for the created commit.
