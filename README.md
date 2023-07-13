@@ -21,3 +21,5 @@ Supported tools:
 - Sato
 - Yor
 - Actionlist
+- Ghat
+- Stevedore
