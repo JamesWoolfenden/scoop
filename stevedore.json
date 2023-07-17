@@ -1,9 +1,9 @@
 {
-  "version": "v0.0.8",
+  "version": "v0.0.9",
   "description": "Stevedore is for managing Docker labelling",
   "license": "Apache-2.0",
-  "url": "https://github.com/jameswoolfenden/stevedore/releases/download/v0.0.8/stevedore_0.0.8_windows_amd64.zip#/stevedore.zip",
+  "url": "https://github.com/jameswoolfenden/stevedore/releases/download/v0.0.9/stevedore_0.0.9_windows_amd64.zip#/stevedore.zip",
   "homepage": "https://github.com/JamesWoolfenden/stevedore",
-  "hash": "D70D8499C6EE781C0800D3F2DB4AA741C94D3B279FCF427701AAAE98DB709C2C",
+  "hash": "EDBD57887B49FEAA4B98050B40AE1DB836B7A6A7EE083F00B47AEBF37EA08280",
   "bin": "stevedore.exe"
 }
