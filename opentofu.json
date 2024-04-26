@@ -1,0 +1,9 @@
+{
+  "version": "v1.6.2",
+  "description": "Open tofu is an open source replacement for Terraform",
+  "license": "Apache-2.0",
+  "url": "https://github.com/opentofu/opentofu/releases/download/v1.6.2/tofu_1.6.2_windows_amd64.zip",
+  "homepage": "https://github.com/opentofu/opentofu",
+  "hash": "C5150E390374838F236DF5A694ED319664C641335FC8A7B908B2BE2FEADAE40C",
+  "bin": "tofu.exe"
+}

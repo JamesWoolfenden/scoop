@@ -1,0 +1,22 @@
+name: tofu
+on:
+  repository_dispatch:
+    types: [tofu]
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+jobs:
+  update-tofu:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build
+        shell: pwsh
+        run: |
+          .\build.ps1 -target opentofu -owner opentofu
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          # Optional. Commit message for the created commit.
+          # Defaults to "Apply automatic changes"
+          commit_message: tofu Updated

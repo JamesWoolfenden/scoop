@@ -12,14 +12,16 @@ scoop bucket add iac https://github.com/JamesWoolfenden/scoop.git
 
 then you can install a tool:
 
-```
+```powershell
 scoop install pike
 ```
 
 Supported tools:
+
 - Pike 
 - Sato
 - Yor
 - Actionlist
 - Ghat
 - Stevedore
+- Opentofu
