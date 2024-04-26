@@ -1,9 +1,9 @@
 {
-  "version": "v1.6.25",
+  "version": "v1.6.27",
   "description": "Action lint is for checking your github workflows",
   "license": "MIT",
-  "url": "https://github.com/rhysd/actionlint/releases/download/v1.6.25/actionlint_1.6.25_windows_amd64.zip#/actionlint.zip",
+  "url": "https://github.com/rhysd/actionlint/releases/download/v1.6.27/actionlint_1.6.27_windows_amd64.zip#/actionlint.zip",
   "homepage": "https://github.com/rhysd/actionlint",
-  "hash": "8F572A723F362F2AB05777AAD0C85322FECF130E6FF0CA8CA0A6FB3A3414AC1B",
+  "hash": "2040AEB2530A80ABBB923493F6947443203B7E60E829CB7BAD1C8CDE1483C376",
   "bin": "actionlint.exe"
 }
