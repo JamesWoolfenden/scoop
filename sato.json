@@ -1,9 +1,9 @@
 {
-  "version": "v0.1.30",
+  "version": "v0.1.31",
   "description": "Sato helps you convert Cloudformation into Terraform",
   "license": "Apache-2.0",
-  "url": "https://github.com/jameswoolfenden/sato/releases/download/v0.1.30/sato_0.1.30_windows_amd64.zip#/sato.zip",
+  "url": "https://github.com/jameswoolfenden/sato/releases/download/v0.1.31/sato_0.1.31_windows_amd64.zip#/sato.zip",
   "homepage": "https://github.com/JamesWoolfenden/sato",
-  "hash": "976EA66AB14AAC094A95A65BD848C80434C066CEDB518E342B92BD606D480711",
+  "hash": "A3E45DA64EF04AE32F590EAFAB50B850FC8D5EEFD58516A08F9477A7545144F6",
   "bin": "sato.exe"
 }
