@@ -1,9 +1,9 @@
 {
-  "version": "v0.1.35",
+  "version": "v0.1.36",
   "description": "Ghat helps you update you GHA dependencies",
   "license": "Apache-2.0",
-  "url": "https://github.com/jameswoolfenden/ghat/releases/download/v0.1.35/ghat_0.1.35_windows_amd64.zip#/ghat.zip",
+  "url": "https://github.com/jameswoolfenden/ghat/releases/download/v0.1.36/ghat_0.1.36_windows_amd64.zip#/ghat.zip",
   "homepage": "https://github.com/JamesWoolfenden/ghat",
-  "hash": "BC34CCE89D116B4BD50C4BBCD05FF2A7168D8AF3E7299F708725A687F21EA45B",
+  "hash": "D353A507489F571A6E5CEBA59DBCBA4160FB87253FB7FF41A45B8C843F90FD84",
   "bin": "ghat.exe"
 }
